@@ -41,9 +41,8 @@ $this->pageTitle=Yii::app()->name;
 
     <?php echo $form->labelEx($model,'txt'); ?>
     <?php echo $form->textField($model,'txt'); ?>
+    <button type="submit" class="btn btn-success">Buscar</button>
     <?php echo $form->error($model,'txt'); ?>
-
-    <?php echo CHtml::submitButton('Buscar'); ?>
     <?php $this->endWidget(); ?>
 </div>
 
